@@ -20,7 +20,7 @@
 
 /*{pal:"nes",layout:"nes"}*/
 const char PALETTE[32] = { 
-  0x0f,			// screen color -- black
+  0x0f,			// bg screen color black
 
   0xad,0x30,0x27,0x0,	// background palette 0
   0x1c,0x20,0x2c,0x0,	// background palette 1
