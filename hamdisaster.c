@@ -45,12 +45,19 @@ void setup_graphics() {
 
 void main(void)
 {
+  int x;
   setup_graphics();
   // draw message  
   vram_adr(NTADR_A(2,2));
   vram_write(text,sizeof(text));
   // enable rendering
   ppu_on_all();
+  
+  for(x=0; x<500; x++) { 
+    ppu_wait_frame();     // this shows the text for 10 seconds..
+  }
+  ppu_off();             // ..then removes it
+  
   // infinite loop
   while(1) {
   }
