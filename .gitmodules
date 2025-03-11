@@ -1,0 +1,6 @@
+[submodule "gary-asleep"]
+	path = gary-asleep
+	url = git@github.com:jesseyowell/gary-asleep.git
+[submodule "gary-awake-alpha"]
+	path = gary-awake-alpha
+	url = git@github.com:jesseyowell/gary-awake-alpha.git
